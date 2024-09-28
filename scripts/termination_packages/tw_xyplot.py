@@ -573,11 +573,11 @@ def twoD_density_xyplot(data,
     cax = divider.append_axes("right", size="5%", pad=0.1)
     cbar = fig.colorbar(scatter, cax=cax, label='Density')
 
-    plt.text(-20, 9, 
-             f'Pearson\'s R = {round(correlation, 3)}', 
-             fontsize=10, 
-             ha='left',
-             c='black')
+    # plt.text(-20, 9, 
+    #          f'Pearson\'s R = {round(correlation, 3)}', 
+    #          fontsize=10, 
+    #          ha='left',
+    #          c='black')
 
     sns.despine(top=True, right=True)
     

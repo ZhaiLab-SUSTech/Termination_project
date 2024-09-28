@@ -35,8 +35,8 @@ demo_data
 │
 ├── fy_elongation.bam
 ├── fy_elongation.bam.bai
-├── wt_rep1_elongation.bam
-├── wt_rep1_elongation.bam.bai
+├── wt_seedling_elongation.bam
+├── wt_seedling_elongation.bam.bai
 └── ... (Other sample elongation bam)
 ```
 
