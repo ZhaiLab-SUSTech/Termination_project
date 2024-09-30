@@ -18,7 +18,7 @@ Python 3.8.18 and above
 
 - This command will create a enviroment: `termination_env`
 
-- FLEPSeq2 enviroment is required
+- FLEPSeq enviroment is required
   https://github.com/ZhaiLab-SUSTech/flep_seq2_polya_analysis
 
 - Termination_landscape enviroment is required
@@ -121,8 +121,8 @@ samtools view -@ 2 -h -bq 1 {raw_polyadenylated_bam} > {polyadenylated_bam}
 - bam_list.txt contains all elongation bam files
 
 ```text
-wt_rep1 ../demo_data/wt_rep1_elongation.bam
-wt_rep2 ../demo_data/wt_rep2_elongation.bam
+sample ../demo_data/sample_elongation.bam
+...
 ```
 
 #### 1.9.1 generate a bam list
